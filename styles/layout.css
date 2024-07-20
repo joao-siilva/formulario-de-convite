@@ -1,0 +1,29 @@
+#app {
+  height: 100vh;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+}
+
+aside {
+  padding: 3.2rem;
+  background: url(../assets/illustration.svg) no-repeat center center/cover;
+  border-radius: 1.2rem;
+
+  & .aside-container {
+    max-width: 40rem;
+  }
+}
+
+main {
+  padding: 8rem;
+  margin-right: 2rem;
+  overflow: auto;
+
+  & .main-container {
+    margin-right: auto;
+  }
+}
+
