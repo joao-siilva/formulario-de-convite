@@ -36,7 +36,7 @@
   font-size: 62.5%;
 
   --leckerli-one: 'Leckerli One', sans-serif;
-  --logo: 400 4rem var(--logo); 
+  --logo: 400 4rem var(--leckerli-one); 
   
   --baloo-2: 'Baloo 2', sans-serif;
   --heading-md: 600 2.8rem var(--baloo-2);
@@ -52,4 +52,19 @@ body {
   background: var(--shape-background);
   color: var(--text-body);
   font: var(--body-md);
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--pink);
+}
+
+h2,
+h3 {
+ color: var(--text-heading); 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
