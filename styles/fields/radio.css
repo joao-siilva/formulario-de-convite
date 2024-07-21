@@ -95,3 +95,56 @@
     }
   }
 }
+
+.theme-wrapper {
+  font: var(--body-sm);
+  color: var(--text-body);
+  margin-top: 1.8rem;
+
+  & .theme-options {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .8rem;
+    margin-top: 1.6rem;
+
+    & .theme-inner {
+      position: relative;
+      display: grid;
+      justify-items: center;
+
+      background: var(--shape-button);
+      border: 1px solid var(--shape-button);
+      border-radius: .8rem;
+      padding: .4rem;
+
+      & img {
+        margin-bottom: .8rem;
+        border-radius: .4rem;
+        width: 100%;
+      }
+
+      & p {
+        margin-bottom: .8rem;
+      }
+
+      &:hover,
+      &:focus {
+        outline: 2px solid var(--brand-light);
+      }
+
+      & input,
+      & input:hover,
+      & input:focus {
+        all: unset;
+        position: absolute;
+        inset: 0;
+      }
+
+      & input[type="radio"]:checked {
+        outline: 2px solid var(--brand-light);
+        border-radius: .4rem;
+      }
+    }
+  }
+} 
