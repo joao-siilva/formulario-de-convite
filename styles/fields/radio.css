@@ -99,7 +99,7 @@
 .theme-wrapper {
   font: var(--body-sm);
   color: var(--text-body);
-  margin-top: 1.8rem;
+  margin-block: 1.8rem;
 
   & .theme-options {
     width: 100%;
