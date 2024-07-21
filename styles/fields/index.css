@@ -1,0 +1,6 @@
+@import url(input.css);
+
+.flex {
+  display: flex;
+  gap: 1.8rem;
+}

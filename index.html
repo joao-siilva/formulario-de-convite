@@ -23,7 +23,45 @@
     </aside>
 
     <main>
-      <div class="main-container">main</div>
+      <div class="main-container">
+        <h2>Crie seu convite</h2>
+
+        <form>
+          <fieldset class="info-event">
+            <legend>
+              <img src="assets/icons/calendar.svg" alt="Icon calendar">
+              <h3>Sobre o evento</h3>
+            </legend>
+
+            <div class="input-wrapper">
+              <label for="title">Título</label>
+              <input id="title" type="text" placeholder="Nome do evento">
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="start">Início</label>
+                <input id="start" type="time">
+              </div>
+
+              <div class="input-wrapper flex-1">
+                <label for="end">Fim</label>
+                <input id="end" type="time">
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="description">Descrição</label>
+              <textarea 
+                id="description" 
+                rows="5"
+                cols="5"
+                placeholder="Escreva sobre os detalhes do evento">
+              </textarea>
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </main>
   </div>
 </body>
