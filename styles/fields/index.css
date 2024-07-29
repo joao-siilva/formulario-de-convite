@@ -10,3 +10,9 @@
   display: flex;
   gap: 1.8rem;
 }
+
+@media (width <= 70em) {
+  .flex {
+    flex-direction: column;
+  }
+}
